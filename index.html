@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="plane-icon.webp" alt="TravelBloom Logo" class="logo-img" />
+        <span class="logo-text">TravelBloom</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Escriba un destino..."
+          class="search-input"
+          id="searchInput"
+        />
+        <button class="search-btn" id="search-button">Buscar</button>
+        <button class="clear-btn" id="clear-button">Limpiar</button>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <section class="hero-section">
+      <div class="content-wrapper">
+        <h1 class="hero-title">
+          EXPLORA <br />
+          SUEÑA <br />
+          DESTINO
+        </h1>
+        <p class="hero-description">
+          Fomentamos la exploración de territorios desconocidos, abrazando
+          diversas culturas y paisajes, mientras se persigue el destino deseado
+          que cautiva el corazón y enciende un sentido de asombro.
+        </p>
+
+        <button class="book-btn">Agenda ahora</button>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="social-media">
+        <a href="#"><img src="twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="youtube.png" alt="YouTube" /></a>
+      </div>
+      <div class="results" id="results"></div>
+    </section>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
